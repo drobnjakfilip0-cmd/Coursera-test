@@ -1,3 +1,5 @@
+$ git checkout main
+$ git merge bug-fix-typo
 Updating 7e6ff5c..7fea3d2
 Fast-forward
  simple-interest.sh | 10 ++++++++++
