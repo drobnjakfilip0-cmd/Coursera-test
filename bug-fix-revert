@@ -1,0 +1,29 @@
+{
+  "url": "https://api.github.com/repos/drobnjakfilip0-cmd/github-final-project/pulls/1",
+  "id": 987654321,
+  "node_id": "PR_kwDOEXAMPLE",
+  "html_url": "https://github.com/drobnjakfilip0-cmd/github-final-project/pull/1",
+  "state": "open",
+  "locked": false,
+  "title": "Fix typo in simple-interest.sh",
+  "user": {
+    "login": "drobnjakfilip0-cmd",
+    "id": 234700247
+  },
+  "body": "This pull request fixes a typo in simple-interest.sh",
+  "created_at": "2026-02-06T17:00:00Z",
+  "updated_at": "2026-02-06T17:05:00Z",
+  "head": {
+    "label": "drobnjakfilip0-cmd:bug-fix-typo",
+    "ref": "bug-fix-typo",
+    "sha": "abcdef1234567890"
+  },
+  "base": {
+    "label": "IBM-Developer-Skills-Network:main",
+    "ref": "main",
+    "sha": "123456abcdef7890"
+  },
+  "merged": false,
+  "mergeable": true,
+  "rebaseable": true
+}
