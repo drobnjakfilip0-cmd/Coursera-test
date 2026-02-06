@@ -1,3 +1,21 @@
-$ curl -s https://api.github.com/repos/drobnjakfilip0-cmd/github-final-project/branches
 
-* main 2fa1522 [origin/main] bug-fix-revert
+git branch -v
+  bug-fix-revert 9048ae1 Fix typo in README.md
+* bug-fix-typo   3cdb3d2 Revert last fix
+  main           3e5401c [ahead 1] Update README.md to pass merge test
+
+ git branch -av
+  bug-fix-revert      9048ae1 Fix typo in README.md
+* bug-fix-typo        3cdb3d2 Revert last fix
+  main                3e5401c [ahead 1] Update README.md to pass merge test
+  remotes/origin/main d664bcc github-branches
+
+  git status
+On branch bug-fix-typo
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   forked-repo
+        modified:   merge_branches
+
+no changes added to commit (use "git add" and/or "git commit -a")
